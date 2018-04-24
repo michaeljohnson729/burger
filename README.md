@@ -22,7 +22,7 @@ The "Veggie" burger is now on the "Burgers to Eat" list and ready to devour!
 
 # Installation (if not on Heroku deployed site)
 
-This app requires the Node.js and the dependencies body-parser, express, express-handlebars, and mysql. To install these dependencies, first make sure you have node.js installed on your machine and then:
+This app requires Node.js and the dependencies body-parser, express, express-handlebars, and mysql. To install these dependencies, first make sure you have node.js installed on your machine and then:
 1. Open the "burgers" folder in terminal
 2. Type the following command to install the dependencies: npm i
 
