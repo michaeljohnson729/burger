@@ -22,15 +22,11 @@ The "Veggie" burger is now on the "Burgers to Eat" list and ready to devour!
 
 # Installation (if not on Heroku deployed site)
 
-<<<<<<< HEAD
 This app requires a MySQL database to function. Included in the burger folder is a db folder with two files inside: schema.sql and seeds.sql. To make the database necessary for the app:
 1. Open and run the schema.sql file in your favorite MySQL application.
 2. Open and run the seeds.sql file.
 
 This app also requires the Node.js and the dependencies body-parser, express, express-handlebars, and mysql. To install these dependencies, first make sure you have node.js installed on your machine and then:
-=======
-This app requires Node.js and the dependencies body-parser, express, express-handlebars, and mysql. To install these dependencies, first make sure you have node.js installed on your machine and then:
->>>>>>> b94579a0e095c193a45291ef053a592e3098902e
 1. Open the "burgers" folder in terminal
 2. Type the following command to install the dependencies: npm i
 
