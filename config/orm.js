@@ -62,9 +62,9 @@ function printQuestionMarks(num) {
       },
       insertOne: function(table, colValue, condition, cb){
         var queryString = "INSERT INTO " + table + " (burger_name, devoured)";
-        queryString += " VALUES ("+ condition + ", false);";
+        queryString += " VALUES (?, false);";
         console.log(queryString);
-        connection.query(queryString, function(err, result) {
+        connection.query(queryString, [condition], function(err, result) {
           if (err) {
             throw err;
           }
